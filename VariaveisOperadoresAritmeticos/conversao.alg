@@ -12,7 +12,10 @@ escreval ("Insira quantos graus celsius deseja converter: ")
 leia (graus)
 
 //processamento
-temperatura <- graus
+temperatura <-(9*graus+160)/5
+
+//final
+escreval ("A temperatura em fahrenheit é: ", temperatura)
 
 
 Fimalgoritmo
